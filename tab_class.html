@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" type="text/css" href="c2.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="j2.js"></script>
+</head>
+<body>
+
+<div id = "tab_class" class="tabcontent">
+<p id="sentence"><b>SELECT THE AVAILABLE EXAM HALLS</b></p>
+ <table class="grid">
+ <tr>
+  <td><button id = "A101" onclick="setColor('A101')">A-101</button></td>
+  <td><button id = "A102" onclick="setColor('A102')">A-102</button></td>
+  <td><button id = "A103" onclick="setColor('A103')">A-103</button></td>
+  <td><button id = "A104" onclick="setColor('A104')">A-104</button></td>
+  <td><button id = "A105" onclick="setColor('A105')">A-105</button></td>
+  <td><button id = "A106" onclick="setColor('A106')">A-106</button></td>
+ </tr>
+ <tr>
+  <td><button id = "B101" onclick="setColor('B101')">B-101</button></td>
+  <td><button id = "B102" onclick="setColor('B102')">B-102</button></td>
+  <td><button id = "B103" onclick="setColor('B103')">B-103</button></td>
+  <td><button id = "B104" onclick="setColor('B104')">B-104</button></td>
+  <td><button id = "B105" onclick="setColor('B105')">B-105</button></td>
+  <td><button id = "B106" onclick="setColor('B106')">B-106</button></td>
+ </tr>
+
+<tr>
+  <td><button id = "C101" onclick="setColor('C101')">C-101</button></td>
+  <td><button id = "C102" onclick="setColor('C102')">C-102</button></td>
+  <td><button id = "C103" onclick="setColor('C103')">C-103</button></td>
+  <td><button id = "C104" onclick="setColor('C104')">C-104</button></td>
+  <td><button id = "C105" onclick="setColor('C105')">C-105</button></td>
+  <td><button id = "C106" onclick="setColor('C106')">C-106</button></td>
+ </tr>
+
+ </table><br>
+<form id="f1" action="classroom.php" method="POST">
+<button onclick="getID()" id="enter">ENTER</button>
+<input name="classes" type="hidden">
+</form>
+
+
+</div>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,88 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+
+body
+{
+background-image:url("bg1.jpg");
+height:100%;
+width:100%;
+
+}
+
+.header
+{
+
+background-color:#1a60bc;
+height:23%;
+
+
+}
+
+.material-icons
+{
+color:white;
+margin-top:0.5%;
+}
+
+.login1
+{
+margin-top:15%;
+margin-left:35%;
+
+}
+
+.text
+{
+color:white;
+font-size:30px;
+font-family:"Comic Sans MS", cursive, sans-serif;
+padding-bottom:30px;
+}
+
+#login
+{
+margin-top:5%;
+margin-left:12%;
+color:#0e326b;
+font-size:30px;
+font-family:"Comic Sans MS", cursive, sans-serif;
+
+}
+
+
+input
+{
+font-family:Ubuntu-Bold;
+width:37%;
+outline:none;
+border:none;
+color:#403866;
+font-size: 18px;
+display:block;
+background-color: #e6e6e6;
+height:62px;
+padding: 0 10px 0 30px;
+opacity:0.6;
+
+}
+
+.button
+{
+width:37%;
+text-align:center;
+padding:0 10px 0 10px;
+background-color:#1a60bc;
+opacity:1.0;
+color:white;
+font-family:"Comic Sans MS", cursive, sans-serif;
+cursor:pointer;
+}
+
+.button:hover
+{
+background-color:#002080;
+}

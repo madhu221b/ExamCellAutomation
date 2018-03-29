@@ -1,0 +1,366 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body
+{font-family:"Lato",sans-serif;
+ background-color: #e0e0d1;
+ 
+}
+
+.header
+{
+
+background-color:#1a60bc;
+height:23%;
+
+}
+
+.text
+{
+color:white;
+font-size:30px;
+font-family:"Comic Sans MS", cursive, sans-serif;
+padding-bottom:30px;
+}
+
+
+.page1{
+margin-top:2%;
+margin-left:280px;
+width:900px;
+height:700px;
+border:0px;
+
+}
+.tab{
+   float:left;
+   background-color:#42b3f4;
+   width:15%;
+   height:100px;
+   margin-top:-700px;
+   margin-bottom:5%;
+   
+}
+
+.tabcontent{
+
+margin-left:15%;
+margin-top:20%;
+
+}
+
+
+table button
+{
+width:100px;
+height:100px;
+border:1px white solid;
+cursor:pointer;
+background-color:white;
+
+}
+
+#enter
+{
+margin-left:70%;
+background-color:orange;
+width:120px;
+height:75px;
+border:none;
+outline:none;
+color:white;
+
+}
+
+#enter:hover
+{
+background-color:#cc5200;
+}
+
+#sentence
+{
+margin-left:20%;
+color:#006699;
+}
+
+
+#form_
+{
+border-radius:20px;
+margin-top:15%;
+margin-left:27%;
+background-color:white;
+width:50%;
+height:350px;
+
+}
+
+#form_ label
+{
+color:#666633;
+}
+
+#form_ input
+{
+border:none;
+height:50px;
+width:120px;
+}
+
+
+
+#head_1
+{
+margin-top:10%;
+background: linear-gradient(to right, #00ccff 0%, #0000ff 100%);
+width:450px;
+height:50px;
+color:white;
+font-size:30px;
+text-align:center;
+border-radius:20px 20px 0 0;
+
+}
+
+#form_2 label
+{
+padding-left:5px;
+}
+
+#form_2 select
+{
+background-color:white;
+border:1px #999966 solid;
+border-radius:3px 3px 3px 3px;
+width:100px;
+height:40px;
+}
+#form_2 input[type=submit]
+{
+width:450px;
+height:61px;
+border-radius:0 0 20px 20px;
+background: linear-gradient(to right, #00ccff 0%, #0000ff 100%);
+color:white;
+font-size:20px;
+text-align:center;
+cursor:pointer;
+
+}
+#form_2 input[type=date]
+{
+width:130px;
+border:1px #999966 solid;
+border-radius:3px 3px 3px 3px;
+}
+
+#f1 button
+{
+margin-left:30%;
+}
+.tab button{
+   display: block;
+   background-color:#42b3f4;
+   padding: 22px 16px;
+   width:100%;
+   border:1px  #e0e0d1 solid;
+   text-align:center;
+   cursor:pointer;
+   font-size:12px;
+   color:white;
+   
+}
+
+
+F.grid
+{
+position:relative;
+}
+
+.grid td
+{
+border:none;
+}
+.grid button
+{
+color:orange;
+border:2px #e0e0d1 solid;
+}
+
+.grid button:hover
+{
+background-color:orange;
+color:white;
+}
+
+.grid button:active
+{
+
+background-color:orange;
+color:white;
+transform:translateY(6px);
+}
+
+.tab button:hover{
+     background-color:#1234e2;
+}
+
+.alloc_sum
+{
+margin-top:10%;
+margin-left:25%;
+width:500px;
+height:500px;
+}
+
+.alloc_sum table,td,th
+{
+border:1px black solid;
+}
+
+#tab_alloc
+{
+border-collapse:collapse;
+}
+
+#tab_alloc th,td
+{
+padding:7px;
+}
+
+#tab_alloc th
+{
+padding:7px;
+color:white;
+background-color:#4d4dff;
+border:1px solid white;
+}
+
+#tab_alloc td
+{
+background-color:white;
+border:1px solid #4d4dff;
+color:#4d4dff;
+}
+
+
+.modal{
+ display:none;
+ z-index:1;
+ background-color: rgba(0,0,0,0.3);
+ margin-left:20%;
+ margin-top:10%;
+ width:600px;
+ height:460px;
+}
+
+.modal-content{
+  background-color:#fefefe;
+}
+
+.tab_1
+{
+margin-top:20%;
+padding-top:50px;
+padding-left:25px;
+
+}
+.tab_1 td
+{
+width:85px;
+height:50px;
+color:white;
+border:none;
+}
+
+.map_B button{
+position:relative;
+background-color:#000080;
+color:white;
+border-radius:0px;
+border:none;
+margin-left:5%;
+width:100px;
+height:75px;
+}
+
+.map_B button:hover
+{
+background-color:#1a53ff;
+cursor:pointer;
+}
+
+.map_B button:active
+{
+background-color:#1a53ff;
+}
+
+.addmarks td
+{
+padding:6px;
+color: #737373;
+}
+
+
+
+.addmarks input[type=number]
+ { 
+  -moz-appearance:textfield;
+  padding-left:3px;
+  margin-left:25%;
+  width:30%;
+}
+
+.addmarks table,th,td
+{
+border:none;
+border-collapse:collapse;
+padding:7px;
+color:white;
+}
+
+.addmarks th
+{
+background-color:#668cff;
+}
+
+.addmarks tr:nth-child(even)
+{
+
+background-color:#b3c6ff;
+color: #999999;
+}
+
+
+.addmarks tr:nth-child(odd)
+{
+
+background-color:#e6e6e6;
+
+}
+
+
+.addmarks input[type=submit]
+{
+margin-top:5%;
+margin-left:40%;
+background-color:#3366ff;
+color:white;
+border-radius:0px;
+border:none;
+width:100px;
+height:75px;
+}
+
+
+.addmarks input[type=submit]:hover
+{
+background-color:#1a53ff;
+cursor:pointer;
+}
+
+
+
