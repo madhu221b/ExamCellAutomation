@@ -3,3 +3,5 @@ Examination Cell Automation System is developed for the college to simplify the 
 
 
 The system is developed using HTML/CSS for front end,MySQL database for backend and for connectivity PHP is used. 
+
+![](Images/Screenshot from 2018-03-28 06-49-13.png)
